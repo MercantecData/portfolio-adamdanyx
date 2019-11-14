@@ -1,0 +1,20 @@
+.button {
+    background-color: lightgray;
+    border: 3px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px;
+}
+
+.button:hover {
+    border: 3px  grey outset;
+}
+
+.button:active {
+    border: 3px inset lightgray;
+    background-color: grey;
+}
+
+img {
+    max-width: 400px;
+}
